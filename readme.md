@@ -19,21 +19,12 @@
 
 ### [√] Description :
 
-***A python phishing script for login phishing, image phishing, video phishing and many more***
+***A python face capturing tool that even if the camra is coverd it will make the "victim" take it off and it will capture him***
 
 ### [+] Installation
 
-##### Install primary dependencies (git, python)
-
- - For Debian (Ubuntu, Kali-Linux, Parrot)
-    - ```sudo apt install git python3 python3-pip php openssh-client -y```
- - For Arch (Manjaro)
-    - ```sudo pacman -S git python3 python-pip php openssh --noconfirm```
- - For Redhat(Fedora)
-    - ```sudo dnf install git python3 php openssh -y```
- - For Termux
-    - ```pkg install git python3 python-pip php openssh -y```
-
+- for linux
+   
 ##### Clone this repository
 
  - ```git clone https://github.com/KasRoudra/MaxPhisher```
@@ -45,37 +36,28 @@
  - ```pip3 install -r files/requirements.txt --break-system-packages```
 
 ##### Run the tool
- - ```python3 maxphisher.py```
+ - ```python3 main.py```
 
 #### Or, directly run
 ```
 wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/maxphisher.py && python3 maxphisher.py
 
 ```
+- for windows
 
-### Pip
- - `pip3 install maxphisher` [For Termux]
- - `sudo pip3 install maxphisher --break-system-packages` [For Linux]
- - `maxphisher`
+#### Download the file as zip
 
-### Docker
+####  install the requirements
 
- - `sudo docker pull kasroudra/maxphisher`
- - `sudo docker run --rm -it kasroudra/maxphisher`
- - `sudo docker cp $(sudo docker ps | grep maxphisher | awk '{print $1}'):/root/Media media` [Run this on another terminal to copy received files from docker to media folder while keeping the container running]
-
-
+ - ```pip3 install requirements.txt ```
 
 ### Support
 
 OS         | Support Level
 -----------|--------------
-Linux      | Excellent
-Android    | Excellent
-iPhone     | Alpha (Recommended docker)
-MacOS      | Alpha (Recommended docker)
-Windows    | Unsupported (Use docker/virtual-box/vmware)
-BSD        | Never tested
+Linux      | didnt tested
+Android    | didnt tested
+Windows    | exellent
 
 #### Options
 
