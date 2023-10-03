@@ -2,11 +2,11 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-1.0-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/KasRoudra/MaxPhisher?style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/github/forks/KasRoudra/MaxPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/watchers/KasRoudra/MaxPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/issues/KasRoudra/MaxPhisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/license/KasRoudra/MaxPhisher?style=for-the-badge&color=blue">
+  <img src="https://img.shields.io/github/CyberPulse1/Facecapture?style=for-the-badge&color=orange">
+  <img src="https://img.shields.io/github/CyberPulse1/Facecapture?color=cyan&style=for-the-badge&color=purple">
+  <img src="https://img.shields.io/github/watchers/CyberPulse1/Facecapture?color=cyan&style=for-the-badge&color=purple">
+  <img src="https://img.shields.io/github/issues/CyberPulse1/Facecapture?color=red&style=for-the-badge">
+  <img src="https://img.shields.io/github/license/CyberPulse1/Facecapture?style=for-the-badge&color=blue">
   <img src="https://hits.dwyl.com/KasRoudra/MaxPhisher.svg" width="140" height="28">
 <br>
 <br>
