@@ -51,6 +51,8 @@ wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/maxphisher.py &
 
  - ```pip3 install requirements.txt ```
 
+#### run the tool
+  ```python main.py```
 ### Support
 
 OS         | Support Level
