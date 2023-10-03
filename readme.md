@@ -12,7 +12,7 @@
 <br>
   <img src="https://img.shields.io/badge/Author-Cyberpulse1-purple?style=flat-square">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
-  <img src="https://img.shields.io/badge/Made in%20Israel-Yes-cyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Made in%20IIsrael-cyan?style=flat-square">
   <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
 </p>
 
