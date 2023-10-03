@@ -27,10 +27,10 @@
    
 ##### Clone this repository
 
- - ```git clone https://github.com/KasRoudra/MaxPhisher```
+ - ```git clone https://github.com/CyberPulse1/Facecapture```
 
 ##### Enter the directory
- - ```cd MaxPhisher```
+ - ```cd Facecapture```
 
 ##### Install all modules
  - ```pip3 install -r files/requirements.txt --break-system-packages```
@@ -38,11 +38,8 @@
 ##### Run the tool
  - ```python3 main.py```
 
-#### Or, directly run
-```
-wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/maxphisher.py && python3 maxphisher.py
 
-```
+
 - for windows
 
 #### Download the file as zip
