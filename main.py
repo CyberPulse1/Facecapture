@@ -1,12 +1,17 @@
 import cv2
 import ctypes
 import os
+import platform
+import subprocess
 import time
 import numpy as np
 
 # Function to display a message box
 def show_message_box(title, message):
-    ctypes.windll.user32.MessageBoxW(0, message, title, 0x00000010)
+    if platform.system() == 'Windows':
+        ctypes.windll.user32.MessageBoxW(0, message, title, 0x00000010)
+    elif platform.system() == 'Linux':
+        subprocess.run(['zenity', '--info', '--title', title, '--text', message])
 
 # Function to capture an image from the camera
 def capture_image(image_count):
@@ -58,7 +63,7 @@ while True:
             time.sleep(60)
         else:
             # Display a message box indicating that no face was detected
-            show_message_box("camara overheating" , "your camara is overheating please remove any cover that covers you camara before it will harm your computer.")
+            show_message_box("Camera overheating", "Your camera is overheating. Please remove any cover that obstructs the camera to prevent damage to your computer.")
 
             # Remove the captured image file
             os.remove(image_path)
