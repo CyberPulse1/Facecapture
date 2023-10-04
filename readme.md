@@ -55,7 +55,7 @@
 OS         | Support Level
 -----------|--------------
 Linux      | exellent
-Android    | didnt tested
+Android    | soon
 Windows    | exellent
 
 
